@@ -1,0 +1,20 @@
+1
+Initialise Board
+    8 * 8 array                                     X
+    fill each element with empty struct             X
+    place pieces in centre 4 elements               X
+
+2
+Print Board
+    Loop through board and print
+        E: empty                                    X
+        B: black                                    X
+        W: white                                    X
+
+3
+Make a move
+    Check in each of the 8 ordinal directions for a b/w piece
+        if there is at least one opposite color in the 8 directions then continue
+     keep going in that direction until an empty space is found
+        look at previous piece to see if its the opposite color
+

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/J/Desktop/C10050/Assignment 2/isValidMove.c
+stdio.h
+-
+ctype.h
+-
+library.h
+C:/Users/J/Desktop/C10050/Assignment 2/library.h
+
+C:/Users/J/Desktop/C10050/Assignment 2/library.h
+
