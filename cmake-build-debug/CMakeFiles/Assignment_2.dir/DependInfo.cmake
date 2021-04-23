@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/J/Desktop/C10050/Assignment 2/capture.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/capture.c.obj"
   "C:/Users/J/Desktop/C10050/Assignment 2/initializeBoard.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/initializeBoard.c.obj"
+  "C:/Users/J/Desktop/C10050/Assignment 2/invertDirection.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/invertDirection.c.obj"
   "C:/Users/J/Desktop/C10050/Assignment 2/isValidMove.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/isValidMove.c.obj"
   "C:/Users/J/Desktop/C10050/Assignment 2/main.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/main.c.obj"
   "C:/Users/J/Desktop/C10050/Assignment 2/printBoard.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/printBoard.c.obj"

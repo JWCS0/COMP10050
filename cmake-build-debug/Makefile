@@ -142,6 +142,33 @@ Assignment_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/build
 .PHONY : Assignment_2/fast
 
+capture.obj: capture.c.obj
+
+.PHONY : capture.obj
+
+# target to build an object file
+capture.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/capture.c.obj
+.PHONY : capture.c.obj
+
+capture.i: capture.c.i
+
+.PHONY : capture.i
+
+# target to preprocess a source file
+capture.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/capture.c.i
+.PHONY : capture.c.i
+
+capture.s: capture.c.s
+
+.PHONY : capture.s
+
+# target to generate assembly for a file
+capture.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/capture.c.s
+.PHONY : capture.c.s
+
 initializeBoard.obj: initializeBoard.c.obj
 
 .PHONY : initializeBoard.obj
@@ -168,6 +195,33 @@ initializeBoard.s: initializeBoard.c.s
 initializeBoard.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/initializeBoard.c.s
 .PHONY : initializeBoard.c.s
+
+invertDirection.obj: invertDirection.c.obj
+
+.PHONY : invertDirection.obj
+
+# target to build an object file
+invertDirection.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/invertDirection.c.obj
+.PHONY : invertDirection.c.obj
+
+invertDirection.i: invertDirection.c.i
+
+.PHONY : invertDirection.i
+
+# target to preprocess a source file
+invertDirection.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/invertDirection.c.i
+.PHONY : invertDirection.c.i
+
+invertDirection.s: invertDirection.c.s
+
+.PHONY : invertDirection.s
+
+# target to generate assembly for a file
+invertDirection.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/invertDirection.c.s
+.PHONY : invertDirection.c.s
 
 isValidMove.obj: isValidMove.c.obj
 
@@ -286,9 +340,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Assignment_2
+	@echo ... capture.obj
+	@echo ... capture.i
+	@echo ... capture.s
 	@echo ... initializeBoard.obj
 	@echo ... initializeBoard.i
 	@echo ... initializeBoard.s
+	@echo ... invertDirection.obj
+	@echo ... invertDirection.i
+	@echo ... invertDirection.s
 	@echo ... isValidMove.obj
 	@echo ... isValidMove.i
 	@echo ... isValidMove.s

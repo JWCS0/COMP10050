@@ -6,10 +6,8 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/J/Desktop/C10050/Assignment 2/isValidMove.c
+C:/Users/J/Desktop/C10050/Assignment 2/initializeBoard.c
 stdio.h
--
-ctype.h
 -
 library.h
 C:/Users/J/Desktop/C10050/Assignment 2/library.h

@@ -31,7 +31,7 @@ struct ordinalDir
 void initializeGame();
 void printBoard();
 void turnAction();
-int isValidMove(char choice[], enum piece player);
-int search(int row, int column, enum direction choice);
+int findValidMoves(char choice[], enum piece player);
+int capture(int row, int column, int direction, enum piece type);
 
 #endif //ASSIGNMENT_2_LIBRARY_H

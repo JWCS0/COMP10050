@@ -74,7 +74,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/capture.c">
+			<Option target="Assignment_2"/>
+		</Unit>
 		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/initializeBoard.c">
+			<Option target="Assignment_2"/>
+		</Unit>
+		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/invertDirection.c">
 			<Option target="Assignment_2"/>
 		</Unit>
 		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/isValidMove.c">

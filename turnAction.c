@@ -21,17 +21,15 @@ void turnAction()
             break;
     }
 
-    printf("%s","Enter the position you would like to take:\n");
-    scanf("%3s",choice);
+    do {
+        printf("%s","Enter the position you would like to take:\n");
+        scanf("%3s",choice);
+        if (findValidMoves(choice,currPlayer) == 0) {
+            puts("Not a valid move");
+        }
+    } while (findValidMoves(choice,currPlayer) == 0);
 
-    if (isValidMove(choice,currPlayer)) {
-        puts("That is a valid move");
-    }
-
-    else {
-        puts("Not a valid move");
-    }
-
+    printBoard();
 
     //swap player turn
     switch (currPlayer) {

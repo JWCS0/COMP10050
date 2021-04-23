@@ -6,9 +6,10 @@
 #include <ctype.h>
 #include "library.h"
 
-int isValidMove(char choice[], enum piece player)
+int findValidMoves(char choice[], enum piece player)
 {
     int validMoves = 0;
+    int change;
 
     //convert the character into integers
     int column = tolower(choice[0]-'a')+1;
@@ -37,7 +38,19 @@ int isValidMove(char choice[], enum piece player)
                 board[row+rowOffset][column+colOffset].square != player) {
                 if (board[row+rowOffset][column+colOffset].square == EMPTY &&
                     board[row+rowOffset-ordDirections[i].xMod][column+colOffset-ordDirections[i].yMod].square == opposite) {
-                    puts("Valid Move");
+                    change = capture(row+rowOffset,column+colOffset,i,player);
+                    switch(player) {
+                        case BLACK:
+                            black.score += change+1;
+                            white.score -= change;
+                            break;
+                        case WHITE:
+                            black.score += change;
+                            white.score -= change+1;
+                            break;
+                        default:
+                            continue;
+                    }
                     validMoves++;
                 }
                 rowOffset += ordDirections[i].xMod;
