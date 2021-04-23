@@ -277,33 +277,6 @@ turnAction.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/turnAction.c.s
 .PHONY : turnAction.c.s
 
-walkUntilDifferent.obj: walkUntilDifferent.c.obj
-
-.PHONY : walkUntilDifferent.obj
-
-# target to build an object file
-walkUntilDifferent.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/walkUntilDifferent.c.obj
-.PHONY : walkUntilDifferent.c.obj
-
-walkUntilDifferent.i: walkUntilDifferent.c.i
-
-.PHONY : walkUntilDifferent.i
-
-# target to preprocess a source file
-walkUntilDifferent.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/walkUntilDifferent.c.i
-.PHONY : walkUntilDifferent.c.i
-
-walkUntilDifferent.s: walkUntilDifferent.c.s
-
-.PHONY : walkUntilDifferent.s
-
-# target to generate assembly for a file
-walkUntilDifferent.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/walkUntilDifferent.c.s
-.PHONY : walkUntilDifferent.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -328,9 +301,6 @@ help:
 	@echo ... turnAction.obj
 	@echo ... turnAction.i
 	@echo ... turnAction.s
-	@echo ... walkUntilDifferent.obj
-	@echo ... walkUntilDifferent.i
-	@echo ... walkUntilDifferent.s
 .PHONY : help
 
 

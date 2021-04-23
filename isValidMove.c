@@ -6,24 +6,45 @@
 #include <ctype.h>
 #include "library.h"
 
-int isValidMove(char choice[], int player)
+int isValidMove(char choice[], enum piece player)
 {
+    int validMoves = 0;
+
     //convert the character into integers
-    int column = tolower(choice[0]-'a');
-    int row = tolower(choice[1]-'0'-1);
+    int column = tolower(choice[0]-'a')+1;
+    int row = tolower(choice[1]-'0'-1)+1;
+
+    enum piece opposite;
+    switch (player) {
+        case BLACK:
+            opposite = WHITE;
+            break;
+        case WHITE:
+            opposite = BLACK;
+            break;
+        default:
+            puts("");
+            break;
+    }
+
 
     //check the input is in range (a-h, 1,8)
-    if (column < 8 && column >= 0 && row < 8 && row >= 0 && board[row][column].square != player){
-        for (size_t i = row-1; i < row+2; i++) {
-            for (size_t j = column-1; j < column+2; j++) {
-                if (!(i == row && j == column)) {
-                    if (board[i][j].square != player && board[i][j].square != EMPTY){
-                        return 1;
-                    }
+    if (column < 9 && column > 0 && row < 9 && row > 0 && board[row][column].square == EMPTY){
+        for (size_t i = 0; i<8; i++) {
+            int rowOffset = 0;
+            int colOffset = 0;
+            while (board[row+rowOffset][column+colOffset].square != EOB &&
+                board[row+rowOffset][column+colOffset].square != player) {
+                if (board[row+rowOffset][column+colOffset].square == EMPTY &&
+                    board[row+rowOffset-ordDirections[i].xMod][column+colOffset-ordDirections[i].yMod].square == opposite) {
+                    puts("Valid Move");
+                    validMoves++;
                 }
+                rowOffset += ordDirections[i].xMod;
+                colOffset += ordDirections[i].yMod;
             }
         }
     }
 
-    return 0;
+    return validMoves;
 }

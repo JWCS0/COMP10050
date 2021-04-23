@@ -6,24 +6,32 @@
 #define ASSIGNMENT_2_LIBRARY_H
 
 
-enum piece {EMPTY, BLACK, WHITE};
-enum column {A ,B ,C ,D ,E ,F ,G ,H};
+enum piece {EMPTY, BLACK, WHITE, EOB};
+enum column {a ,b ,c ,d ,e ,f ,g ,h};
+enum direction {NW, N, NE, W, E, SW, S, SE};
 
 struct position
 {
     enum piece square;
-} board[8][8];
+} board[10][10];
 
 struct player
 {
-    enum piece piece;
+    enum piece color;
     int score;
 } black, white;
 
+struct ordinalDir
+{
+    int xMod;
+    int yMod;
+} ordDirections[8];
+
 /* Function Prototypes */
-void initializeBoard();
+void initializeGame();
 void printBoard();
 void turnAction();
-int isValidMove(char choice[], int player);
+int isValidMove(char choice[], enum piece player);
+int search(int row, int column, enum direction choice);
 
 #endif //ASSIGNMENT_2_LIBRARY_H

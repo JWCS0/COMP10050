@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/J/Desktop/C10050/Assignment 2/main.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/main.c.obj"
   "C:/Users/J/Desktop/C10050/Assignment 2/printBoard.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/printBoard.c.obj"
   "C:/Users/J/Desktop/C10050/Assignment 2/turnAction.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/turnAction.c.obj"
-  "C:/Users/J/Desktop/C10050/Assignment 2/walkUntilDifferent.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/walkUntilDifferent.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

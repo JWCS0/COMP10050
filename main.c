@@ -6,8 +6,9 @@ int gameFinish = 0;
 int main()
 {
 
-    initializeBoard();
+    initializeGame();
     printBoard();
+
 
     while (gameFinish != 1) {
         turnAction();

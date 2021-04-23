@@ -92,9 +92,6 @@
 		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/turnAction.c">
 			<Option target="Assignment_2"/>
 		</Unit>
-		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/walkUntilDifferent.c">
-			<Option target="Assignment_2"/>
-		</Unit>
 		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

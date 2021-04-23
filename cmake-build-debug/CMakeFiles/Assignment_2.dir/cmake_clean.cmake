@@ -7,7 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Assignment_2.dir/main.c.obj"
   "CMakeFiles/Assignment_2.dir/printBoard.c.obj"
   "CMakeFiles/Assignment_2.dir/turnAction.c.obj"
-  "CMakeFiles/Assignment_2.dir/walkUntilDifferent.c.obj"
   "libAssignment_2.dll.a"
 )
 

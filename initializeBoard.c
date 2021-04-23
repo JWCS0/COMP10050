@@ -5,15 +5,39 @@
 #include <stdio.h>
 #include "library.h"
 
-void initializeBoard()
+void initializeGame()
 {
-    board[3][3].square = WHITE;
-    board[3][4].square = BLACK;
-    board[4][3].square = BLACK;
     board[4][4].square = WHITE;
+    board[4][5].square = BLACK;
+    board[5][4].square = BLACK;
+    board[5][5].square = WHITE;
+
+    for (size_t i = 0; i < 10; i+=9) {
+        for (size_t j = 0; j < 10; j++) {
+            board[i][j].square = EOB;
+        }
+    }
+    for (size_t i = 0; i < 10; i+=9) {
+        for (size_t j = 0; j < 10; j++) {
+            board[j][i].square = EOB;
+        }
+    }
+
+    int x = 0;
+    for (int i = -1; i <=1; i++) {
+        for (int j = -1; j <=1; j++){
+            if (i==0 && j==0) {
+                continue;
+            }
+            else {
+                ordDirections[x].xMod = j;
+                ordDirections[x++].yMod = i;
+            }
+        }
+    }
 
     black.score = 2;
-    black.piece = BLACK;
+    black.color = BLACK;
     white.score = 2;
-    white.piece = WHITE;
+    white.color = WHITE;
 }

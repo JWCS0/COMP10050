@@ -13,8 +13,9 @@ Print Board
 
 3
 Make a move
-    Check in each of the 8 ordinal directions for a b/w piece
-        if there is at least one opposite color in the 8 directions then continue
-     keep going in that direction until an empty space is found
-        look at previous piece to see if its the opposite color
+    Check in each of the 8 ordinal directions for opposite piece
+        if opposite color found, keep going in direction
+            if same color found in that "line": invalid move
+            if end of board reached: invalid move
+            if blank space at end: valid move
 

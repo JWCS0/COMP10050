@@ -8,9 +8,9 @@
 void printBoard()
 {
     printf("%s","   a  b  c  d  e  f  g  h\n");
-    for (size_t i = 0; i < 8; i++) {
-        printf("%d  ",i+1);
-        for (size_t j = 0; j < 8; j++) {
+    for (size_t i = 1; i <= 8; i++) {
+        printf("%d  ",i);
+        for (size_t j = 1; j <= 8; j++) {
             switch (board[i][j].square) {
                 case EMPTY:
                     printf("%c  ", '-');
@@ -21,6 +21,8 @@ void printBoard()
                 case WHITE:
                     printf("%c  ",'W');
                     break;
+                case EOB:
+                    continue;
             }
         }
         puts("");
