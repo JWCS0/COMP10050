@@ -12,5 +12,6 @@ int main()
 
     while (gameFinish != 1) {
         turnAction();
+        puts("next player");
     }
 }

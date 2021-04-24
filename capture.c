@@ -8,20 +8,21 @@ int capture(int row, int column, int direction, enum piece type)
 {
     int captured = 0;
 
+
     printf("%d %d\n", row, column);
 
-    puts("DEBUG START");
+    puts("CAPTURE START");
     printf("%d vs %d\n",board[row][column].square,type);
-    while (board[row][column].square != type) {
+    do {
         board[row][column].square = type;
-        row += ordDirections[direction].xMod*-1;
-        column += ordDirections[direction].yMod*-1;
+        row += ordDirections[direction].xMod;
+        column += ordDirections[direction].yMod;
         captured++;
         printf("Row col %d %d\n", row, column);
         printf("%d vs %d\n",board[row][column].square,type);
-    }
+    } while (board[row][column].square != type);
 
-    printf("%d",captured);
+    printf("Captured%d\n",captured);
 
     return captured;
 }

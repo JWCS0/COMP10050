@@ -9,6 +9,7 @@ void turnAction()
 {
     static enum piece currPlayer = BLACK;
     char choice[2];
+    int check;
 
     switch (currPlayer) {
         case WHITE:
@@ -24,10 +25,11 @@ void turnAction()
     do {
         printf("%s","Enter the position you would like to take:\n");
         scanf("%3s",choice);
-        if (findValidMoves(choice,currPlayer) == 0) {
+        check = findValidMoves(choice, currPlayer);
+        if (check == 0) {
             puts("Not a valid move");
         }
-    } while (findValidMoves(choice,currPlayer) == 0);
+    } while (check == 0);
 
     printBoard();
 
