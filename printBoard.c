@@ -7,13 +7,13 @@
 
 void printBoard()
 {
-    printf("%s","   a  b  c  d  e  f  g  h\n");
+    printf("\n\n\n\n%s","   a  b  c  d  e  f  g  h\n");
     for (size_t i = 1; i <= 8; i++) {
         printf("%d  ",i);
         for (size_t j = 1; j <= 8; j++) {
             switch (board[i][j].square) {
                 case EMPTY:
-                    printf("%c  ", '-');
+                    printf("%c  ", ' ');
                     break;
                 case BLACK:
                     printf("%c  ",'B');

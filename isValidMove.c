@@ -8,7 +8,6 @@
 
 int findValidMoves(char choice[], enum piece player)
 {
-    printf("CHOICE %s\n\n",choice);
     int validMoves = 0;
     int change;
 
@@ -36,37 +35,35 @@ int findValidMoves(char choice[], enum piece player)
         for (size_t i = 0; i < 8; i++) {
             int rowOffset = ordDirections[i].xMod;
             int colOffset = ordDirections[i].yMod;
-            printf("\nOrigin %d %d\n",row, column);
-            printf("Direction %d %d\n",rowOffset,colOffset);
-            while (board[row+rowOffset][column+colOffset].square != EOB) {
-                printf("Square type %d @ pos %d %d\n",board[row+rowOffset][column+colOffset].square,
-                       row+rowOffset,column+colOffset);
-                printf("Prev square %d %d\n",row+rowOffset+(ordDirections[i].xMod*-1),column+colOffset+(ordDirections[i].yMod*-1));
-                if (board[row+rowOffset][column+colOffset].square == player &&
-                    board[row+rowOffset+(ordDirections[i].xMod*-1)][column+colOffset+(ordDirections[i].yMod*-1)].square == opposite) {
-                    puts("True");
-                    change = capture(row+rowOffset,column+colOffset,i,player);
-                    switch(player) {
-                        case BLACK:
-                            black.score += change+1;
-                            white.score -= change;
-                            break;
-                        case WHITE:
-                            black.score += change;
-                            white.score -= change+1;
-                            break;
-                        default:
-                            continue;
-                    }
-                    validMoves++;
+            while (board[row+rowOffset][column+colOffset].square != player) {
+                if (board[row+rowOffset][column+colOffset].square == opposite) {
+                    rowOffset += ordDirections[i].xMod;
+                    colOffset += ordDirections[i].yMod;
                 }
-                else if (board[row+rowOffset][column+colOffset].square == EMPTY &&
-                board[row+rowOffset+(ordDirections[i].xMod*-1)][column+colOffset+(ordDirections[i].yMod*-1)].square == EMPTY){
-                    puts("break");
+                else if (board[row+rowOffset][column+colOffset].square == EMPTY){
                     break;
                 }
-                rowOffset += ordDirections[i].xMod;
-                colOffset += ordDirections[i].yMod;
+                else if (board[row+rowOffset][column+colOffset].square == EOB){
+                    break;
+                }
+            }
+
+            if (board[row+rowOffset][column+colOffset].square == player &&
+                board[row+rowOffset+(ordDirections[i].xMod*-1)][column+colOffset+(ordDirections[i].yMod*-1)].square == opposite) {
+                change = capture(row,column,i,player);
+                switch(player) {
+                    case BLACK:
+                        black.score += change;
+                        white.score -= change-1;
+                        break;
+                    case WHITE:
+                        black.score -= change-1;
+                        white.score += change;
+                        break;
+                    default:
+                        continue;
+                }
+                validMoves++;
             }
         }
     }
