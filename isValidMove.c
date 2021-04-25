@@ -9,7 +9,7 @@
 int findValidMoves(char choice[], enum piece player)
 {
     int validMoves = 0;
-    int change;
+    int change = 0;
 
     //convert the character into integers
     int column = tolower(choice[0]-'a')+1;
@@ -29,42 +29,41 @@ int findValidMoves(char choice[], enum piece player)
             break;
     }
 
-
     //check the input is in range (a-h, 1,8)
     if (column < 9 && column > 0 && row < 9 && row > 0 && board[row][column].square == EMPTY){
         for (size_t i = 0; i < 8; i++) {
             int rowOffset = ordDirections[i].xMod;
             int colOffset = ordDirections[i].yMod;
+
             while (board[row+rowOffset][column+colOffset].square != player) {
                 if (board[row+rowOffset][column+colOffset].square == opposite) {
                     rowOffset += ordDirections[i].xMod;
                     colOffset += ordDirections[i].yMod;
                 }
-                else if (board[row+rowOffset][column+colOffset].square == EMPTY){
-                    break;
-                }
-                else if (board[row+rowOffset][column+colOffset].square == EOB){
+                else if (board[row+rowOffset][column+colOffset].square == EMPTY ||
+                        board[row+rowOffset][column+colOffset].square == EOB){
                     break;
                 }
             }
 
             if (board[row+rowOffset][column+colOffset].square == player &&
                 board[row+rowOffset+(ordDirections[i].xMod*-1)][column+colOffset+(ordDirections[i].yMod*-1)].square == opposite) {
-                change = capture(row,column,i,player);
-                switch(player) {
-                    case BLACK:
-                        black.score += change;
-                        white.score -= change-1;
-                        break;
-                    case WHITE:
-                        black.score -= change-1;
-                        white.score += change;
-                        break;
-                    default:
-                        continue;
-                }
+                change += capture(row+ordDirections[i].xMod,column+ordDirections[i].yMod,i,player);
                 validMoves++;
             }
+        }
+        board[row][column].square = player;
+        switch(player) {
+            case BLACK:
+                black.score += change+1;
+                white.score -= change;
+                break;
+            case WHITE:
+                black.score -= change;
+                white.score += change+1;
+                break;
+            default:
+                break;
         }
     }
 

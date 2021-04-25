@@ -10,6 +10,7 @@ void turnAction()
     static enum piece currPlayer = BLACK;
     char choice[2];
     int check;
+    extern int gameFinish;
 
     switch (currPlayer) {
         case WHITE:
@@ -32,6 +33,10 @@ void turnAction()
     } while (check == 0);
 
     printBoard();
+
+    if (black.score + white.score == 64) {
+        gameFinish = 1;
+    }
 
     //swap player turn
     switch (currPlayer) {

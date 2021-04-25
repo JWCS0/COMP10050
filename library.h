@@ -7,8 +7,6 @@
 
 
 enum piece {EMPTY, BLACK, WHITE, EOB};
-enum column {a ,b ,c ,d ,e ,f ,g ,h};
-enum direction {NW, N, NE, W, E, SW, S, SE};
 
 struct position
 {
