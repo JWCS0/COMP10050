@@ -7,7 +7,7 @@
 
 void turnAction()
 {
-    static enum piece currPlayer = BLACK;
+    static enum piece currPlayer = WHITE;
     char choice[2];
     int check;
     extern int gameFinish;

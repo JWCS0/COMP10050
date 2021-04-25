@@ -196,33 +196,6 @@ initializeBoard.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/initializeBoard.c.s
 .PHONY : initializeBoard.c.s
 
-invertDirection.obj: invertDirection.c.obj
-
-.PHONY : invertDirection.obj
-
-# target to build an object file
-invertDirection.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/invertDirection.c.obj
-.PHONY : invertDirection.c.obj
-
-invertDirection.i: invertDirection.c.i
-
-.PHONY : invertDirection.i
-
-# target to preprocess a source file
-invertDirection.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/invertDirection.c.i
-.PHONY : invertDirection.c.i
-
-invertDirection.s: invertDirection.c.s
-
-.PHONY : invertDirection.s
-
-# target to generate assembly for a file
-invertDirection.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/invertDirection.c.s
-.PHONY : invertDirection.c.s
-
 isValidMove.obj: isValidMove.c.obj
 
 .PHONY : isValidMove.obj
@@ -346,9 +319,6 @@ help:
 	@echo ... initializeBoard.obj
 	@echo ... initializeBoard.i
 	@echo ... initializeBoard.s
-	@echo ... invertDirection.obj
-	@echo ... invertDirection.i
-	@echo ... invertDirection.s
 	@echo ... isValidMove.obj
 	@echo ... isValidMove.i
 	@echo ... isValidMove.s

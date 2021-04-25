@@ -52,18 +52,20 @@ int findValidMoves(char choice[], enum piece player)
                 validMoves++;
             }
         }
-        board[row][column].square = player;
-        switch(player) {
-            case BLACK:
-                black.score += change+1;
-                white.score -= change;
-                break;
-            case WHITE:
-                black.score -= change;
-                white.score += change+1;
-                break;
-            default:
-                break;
+        if (validMoves != 0) {
+            board[row][column].square = player;
+            switch(player) {
+                case BLACK:
+                    black.score += change+1;
+                    white.score -= change;
+                    break;
+                case WHITE:
+                    black.score -= change;
+                    white.score += change+1;
+                    break;
+                default:
+                    break;
+            }
         }
     }
 
