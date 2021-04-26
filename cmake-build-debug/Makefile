@@ -169,6 +169,33 @@ capture.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/capture.c.s
 .PHONY : capture.c.s
 
+findValidMoves.obj: findValidMoves.c.obj
+
+.PHONY : findValidMoves.obj
+
+# target to build an object file
+findValidMoves.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/findValidMoves.c.obj
+.PHONY : findValidMoves.c.obj
+
+findValidMoves.i: findValidMoves.c.i
+
+.PHONY : findValidMoves.i
+
+# target to preprocess a source file
+findValidMoves.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/findValidMoves.c.i
+.PHONY : findValidMoves.c.i
+
+findValidMoves.s: findValidMoves.c.s
+
+.PHONY : findValidMoves.s
+
+# target to generate assembly for a file
+findValidMoves.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/findValidMoves.c.s
+.PHONY : findValidMoves.c.s
+
 initializeBoard.obj: initializeBoard.c.obj
 
 .PHONY : initializeBoard.obj
@@ -196,33 +223,6 @@ initializeBoard.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/initializeBoard.c.s
 .PHONY : initializeBoard.c.s
 
-isValidMove.obj: isValidMove.c.obj
-
-.PHONY : isValidMove.obj
-
-# target to build an object file
-isValidMove.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/isValidMove.c.obj
-.PHONY : isValidMove.c.obj
-
-isValidMove.i: isValidMove.c.i
-
-.PHONY : isValidMove.i
-
-# target to preprocess a source file
-isValidMove.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/isValidMove.c.i
-.PHONY : isValidMove.c.i
-
-isValidMove.s: isValidMove.c.s
-
-.PHONY : isValidMove.s
-
-# target to generate assembly for a file
-isValidMove.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/isValidMove.c.s
-.PHONY : isValidMove.c.s
-
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -249,6 +249,33 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/main.c.s
 .PHONY : main.c.s
+
+movesAvailable.obj: movesAvailable.c.obj
+
+.PHONY : movesAvailable.obj
+
+# target to build an object file
+movesAvailable.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/movesAvailable.c.obj
+.PHONY : movesAvailable.c.obj
+
+movesAvailable.i: movesAvailable.c.i
+
+.PHONY : movesAvailable.i
+
+# target to preprocess a source file
+movesAvailable.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/movesAvailable.c.i
+.PHONY : movesAvailable.c.i
+
+movesAvailable.s: movesAvailable.c.s
+
+.PHONY : movesAvailable.s
+
+# target to generate assembly for a file
+movesAvailable.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/movesAvailable.c.s
+.PHONY : movesAvailable.c.s
 
 printBoard.obj: printBoard.c.obj
 
@@ -316,15 +343,18 @@ help:
 	@echo ... capture.obj
 	@echo ... capture.i
 	@echo ... capture.s
+	@echo ... findValidMoves.obj
+	@echo ... findValidMoves.i
+	@echo ... findValidMoves.s
 	@echo ... initializeBoard.obj
 	@echo ... initializeBoard.i
 	@echo ... initializeBoard.s
-	@echo ... isValidMove.obj
-	@echo ... isValidMove.i
-	@echo ... isValidMove.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... movesAvailable.obj
+	@echo ... movesAvailable.i
+	@echo ... movesAvailable.s
 	@echo ... printBoard.obj
 	@echo ... printBoard.i
 	@echo ... printBoard.s

@@ -23,20 +23,25 @@ void turnAction()
             break;
     }
 
-    do {
-        printf("%s","Enter the position you would like to take:\n");
-        scanf("%3s",choice);
-        check = findValidMoves(choice, currPlayer);
-        if (check == 0) {
-            puts("Not a valid move");
-        }
-    } while (check == 0);
-
-    printBoard();
-
     if (black.score + white.score == 64) {
         gameFinish = 1;
     }
+    else if (movesAvailable(currPlayer) == 0) {
+        puts("No valid moves");
+        gameFinish = 1;
+    }
+    else {
+        do {
+            printf("%s","Enter the position you would like to take:\n");
+            scanf("%3s",choice);
+            check = findValidMoves(choice, currPlayer,0);
+            if (check == 0) {
+                puts("Not a valid move");
+            }
+        } while (check == 0);
+    }
+
+    printBoard();
 
     //swap player turn
     switch (currPlayer) {

@@ -4,17 +4,18 @@
 CMakeFiles/Assignment_2.dir/capture.c.obj
  C:/Users/J/Desktop/C10050/Assignment 2/capture.c
  C:/Users/J/Desktop/C10050/Assignment 2/library.h
+CMakeFiles/Assignment_2.dir/findValidMoves.c.obj
+ C:/Users/J/Desktop/C10050/Assignment 2/findValidMoves.c
+ C:/Users/J/Desktop/C10050/Assignment 2/library.h
 CMakeFiles/Assignment_2.dir/initializeBoard.c.obj
  C:/Users/J/Desktop/C10050/Assignment 2/initializeBoard.c
- C:/Users/J/Desktop/C10050/Assignment 2/library.h
-CMakeFiles/Assignment_2.dir/invertDirection.c.obj
- C:/Users/J/Desktop/C10050/Assignment 2/invertDirection.c
-CMakeFiles/Assignment_2.dir/isValidMove.c.obj
- C:/Users/J/Desktop/C10050/Assignment 2/isValidMove.c
  C:/Users/J/Desktop/C10050/Assignment 2/library.h
 CMakeFiles/Assignment_2.dir/main.c.obj
  C:/Users/J/Desktop/C10050/Assignment 2/library.h
  C:/Users/J/Desktop/C10050/Assignment 2/main.c
+CMakeFiles/Assignment_2.dir/movesAvailable.c.obj
+ C:/Users/J/Desktop/C10050/Assignment 2/library.h
+ C:/Users/J/Desktop/C10050/Assignment 2/movesAvailable.c
 CMakeFiles/Assignment_2.dir/printBoard.c.obj
  C:/Users/J/Desktop/C10050/Assignment 2/library.h
  C:/Users/J/Desktop/C10050/Assignment 2/printBoard.c

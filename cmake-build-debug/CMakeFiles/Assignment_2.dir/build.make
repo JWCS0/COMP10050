@@ -115,18 +115,18 @@ CMakeFiles/Assignment_2.dir/initializeBoard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment_2.dir/initializeBoard.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\J\Desktop\C10050\Assignment 2\initializeBoard.c" -o CMakeFiles\Assignment_2.dir\initializeBoard.c.s
 
-CMakeFiles/Assignment_2.dir/isValidMove.c.obj: CMakeFiles/Assignment_2.dir/flags.make
-CMakeFiles/Assignment_2.dir/isValidMove.c.obj: ../isValidMove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\J\Desktop\C10050\Assignment 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Assignment_2.dir/isValidMove.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Assignment_2.dir\isValidMove.c.obj   -c "C:\Users\J\Desktop\C10050\Assignment 2\isValidMove.c"
+CMakeFiles/Assignment_2.dir/findValidMoves.c.obj: CMakeFiles/Assignment_2.dir/flags.make
+CMakeFiles/Assignment_2.dir/findValidMoves.c.obj: ../findValidMoves.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\J\Desktop\C10050\Assignment 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Assignment_2.dir/findValidMoves.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Assignment_2.dir\findValidMoves.c.obj   -c "C:\Users\J\Desktop\C10050\Assignment 2\findValidMoves.c"
 
-CMakeFiles/Assignment_2.dir/isValidMove.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment_2.dir/isValidMove.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\J\Desktop\C10050\Assignment 2\isValidMove.c" > CMakeFiles\Assignment_2.dir\isValidMove.c.i
+CMakeFiles/Assignment_2.dir/findValidMoves.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment_2.dir/findValidMoves.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\J\Desktop\C10050\Assignment 2\findValidMoves.c" > CMakeFiles\Assignment_2.dir\findValidMoves.c.i
 
-CMakeFiles/Assignment_2.dir/isValidMove.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment_2.dir/isValidMove.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\J\Desktop\C10050\Assignment 2\isValidMove.c" -o CMakeFiles\Assignment_2.dir\isValidMove.c.s
+CMakeFiles/Assignment_2.dir/findValidMoves.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment_2.dir/findValidMoves.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\J\Desktop\C10050\Assignment 2\findValidMoves.c" -o CMakeFiles\Assignment_2.dir\findValidMoves.c.s
 
 CMakeFiles/Assignment_2.dir/turnAction.c.obj: CMakeFiles/Assignment_2.dir/flags.make
 CMakeFiles/Assignment_2.dir/turnAction.c.obj: ../turnAction.c
@@ -154,28 +154,28 @@ CMakeFiles/Assignment_2.dir/capture.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment_2.dir/capture.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\J\Desktop\C10050\Assignment 2\capture.c" -o CMakeFiles\Assignment_2.dir\capture.c.s
 
-CMakeFiles/Assignment_2.dir/invertDirection.c.obj: CMakeFiles/Assignment_2.dir/flags.make
-CMakeFiles/Assignment_2.dir/invertDirection.c.obj: ../invertDirection.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\J\Desktop\C10050\Assignment 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Assignment_2.dir/invertDirection.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Assignment_2.dir\invertDirection.c.obj   -c "C:\Users\J\Desktop\C10050\Assignment 2\invertDirection.c"
+CMakeFiles/Assignment_2.dir/movesAvailable.c.obj: CMakeFiles/Assignment_2.dir/flags.make
+CMakeFiles/Assignment_2.dir/movesAvailable.c.obj: ../movesAvailable.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\J\Desktop\C10050\Assignment 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Assignment_2.dir/movesAvailable.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Assignment_2.dir\movesAvailable.c.obj   -c "C:\Users\J\Desktop\C10050\Assignment 2\movesAvailable.c"
 
-CMakeFiles/Assignment_2.dir/invertDirection.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment_2.dir/invertDirection.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\J\Desktop\C10050\Assignment 2\invertDirection.c" > CMakeFiles\Assignment_2.dir\invertDirection.c.i
+CMakeFiles/Assignment_2.dir/movesAvailable.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment_2.dir/movesAvailable.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\J\Desktop\C10050\Assignment 2\movesAvailable.c" > CMakeFiles\Assignment_2.dir\movesAvailable.c.i
 
-CMakeFiles/Assignment_2.dir/invertDirection.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment_2.dir/invertDirection.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\J\Desktop\C10050\Assignment 2\invertDirection.c" -o CMakeFiles\Assignment_2.dir\invertDirection.c.s
+CMakeFiles/Assignment_2.dir/movesAvailable.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment_2.dir/movesAvailable.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\J\Desktop\C10050\Assignment 2\movesAvailable.c" -o CMakeFiles\Assignment_2.dir\movesAvailable.c.s
 
 # Object files for target Assignment_2
 Assignment_2_OBJECTS = \
 "CMakeFiles/Assignment_2.dir/main.c.obj" \
 "CMakeFiles/Assignment_2.dir/printBoard.c.obj" \
 "CMakeFiles/Assignment_2.dir/initializeBoard.c.obj" \
-"CMakeFiles/Assignment_2.dir/isValidMove.c.obj" \
+"CMakeFiles/Assignment_2.dir/findValidMoves.c.obj" \
 "CMakeFiles/Assignment_2.dir/turnAction.c.obj" \
 "CMakeFiles/Assignment_2.dir/capture.c.obj" \
-"CMakeFiles/Assignment_2.dir/invertDirection.c.obj"
+"CMakeFiles/Assignment_2.dir/movesAvailable.c.obj"
 
 # External object files for target Assignment_2
 Assignment_2_EXTERNAL_OBJECTS =
@@ -183,10 +183,10 @@ Assignment_2_EXTERNAL_OBJECTS =
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/main.c.obj
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/printBoard.c.obj
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/initializeBoard.c.obj
-Assignment_2.exe: CMakeFiles/Assignment_2.dir/isValidMove.c.obj
+Assignment_2.exe: CMakeFiles/Assignment_2.dir/findValidMoves.c.obj
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/turnAction.c.obj
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/capture.c.obj
-Assignment_2.exe: CMakeFiles/Assignment_2.dir/invertDirection.c.obj
+Assignment_2.exe: CMakeFiles/Assignment_2.dir/movesAvailable.c.obj
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/build.make
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/linklibs.rsp
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/objects1.rsp

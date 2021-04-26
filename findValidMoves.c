@@ -6,7 +6,7 @@
 #include <ctype.h>
 #include "library.h"
 
-int findValidMoves(char choice[], enum piece player)
+int findValidMoves(char choice[], enum piece player, int onlyCheck)
 {
     int validMoves = 0;
     int change = 0;
@@ -48,8 +48,10 @@ int findValidMoves(char choice[], enum piece player)
 
             if (board[row+rowOffset][column+colOffset].square == player &&
                 board[row+rowOffset+(ordDirections[i].xMod*-1)][column+colOffset+(ordDirections[i].yMod*-1)].square == opposite) {
-                change += capture(row+ordDirections[i].xMod,column+ordDirections[i].yMod,i,player);
-                validMoves++;
+                if (onlyCheck != 1) {
+                    change += capture(row+ordDirections[i].xMod,column+ordDirections[i].yMod,i,player);
+                }
+                validMoves = 1;
             }
         }
         if (validMoves != 0) {

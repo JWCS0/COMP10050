@@ -77,16 +77,19 @@
 		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/capture.c">
 			<Option target="Assignment_2"/>
 		</Unit>
-		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/initializeBoard.c">
+		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/findValidMoves.c">
 			<Option target="Assignment_2"/>
 		</Unit>
-		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/isValidMove.c">
+		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/initializeBoard.c">
 			<Option target="Assignment_2"/>
 		</Unit>
 		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/library.h">
 			<Option target="Assignment_2"/>
 		</Unit>
 		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/main.c">
+			<Option target="Assignment_2"/>
+		</Unit>
+		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/movesAvailable.c">
 			<Option target="Assignment_2"/>
 		</Unit>
 		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/printBoard.c">
