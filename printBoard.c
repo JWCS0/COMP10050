@@ -7,7 +7,6 @@
 
 void printBoard()
 {
-    printf("\n\n\n\n%s","   a  b  c  d  e  f  g  h\n");
     for (size_t i = 1; i <= 8; i++) {
         printf("%d  ",i);
         for (size_t j = 1; j <= 8; j++) {
@@ -27,6 +26,7 @@ void printBoard()
         }
         puts("");
     }
+    printf("%s","   a  b  c  d  e  f  g  h\n");
 
     printf("%s %d - %d %s\n","Current Score: Black",black.score,white.score,"White");
 }

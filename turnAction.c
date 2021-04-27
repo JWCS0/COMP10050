@@ -7,7 +7,7 @@
 
 void turnAction()
 {
-    static enum piece currPlayer = WHITE;
+    static enum piece currPlayer = BLACK;
     char choice[2];
     int check;
     extern int gameFinish;
@@ -23,12 +23,17 @@ void turnAction()
             break;
     }
 
-    if (black.score + white.score == 64) {
+    //No moves possible
+    if (black.score + white.score == 64 || (movesAvailable(BLACK) == 0 && movesAvailable(WHITE) == 0)) {
         gameFinish = 1;
     }
+    //Current player has no valid moves
     else if (movesAvailable(currPlayer) == 0) {
         puts("No valid moves");
-        gameFinish = 1;
+        do {
+            printf("%s","Enter the position you would like to take:\n");
+            scanf("%2s",choice);
+        } while (choice[0] != 'p');
     }
     else {
         do {

@@ -10,4 +10,6 @@ int main()
     while (gameFinish != 1) {
         turnAction();
     }
+
+    printWinner();
 }

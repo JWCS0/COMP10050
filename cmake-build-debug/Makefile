@@ -196,32 +196,32 @@ findValidMoves.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/findValidMoves.c.s
 .PHONY : findValidMoves.c.s
 
-initializeBoard.obj: initializeBoard.c.obj
+initializeGame.obj: initializeGame.c.obj
 
-.PHONY : initializeBoard.obj
+.PHONY : initializeGame.obj
 
 # target to build an object file
-initializeBoard.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/initializeBoard.c.obj
-.PHONY : initializeBoard.c.obj
+initializeGame.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/initializeGame.c.obj
+.PHONY : initializeGame.c.obj
 
-initializeBoard.i: initializeBoard.c.i
+initializeGame.i: initializeGame.c.i
 
-.PHONY : initializeBoard.i
+.PHONY : initializeGame.i
 
 # target to preprocess a source file
-initializeBoard.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/initializeBoard.c.i
-.PHONY : initializeBoard.c.i
+initializeGame.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/initializeGame.c.i
+.PHONY : initializeGame.c.i
 
-initializeBoard.s: initializeBoard.c.s
+initializeGame.s: initializeGame.c.s
 
-.PHONY : initializeBoard.s
+.PHONY : initializeGame.s
 
 # target to generate assembly for a file
-initializeBoard.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/initializeBoard.c.s
-.PHONY : initializeBoard.c.s
+initializeGame.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/initializeGame.c.s
+.PHONY : initializeGame.c.s
 
 main.obj: main.c.obj
 
@@ -304,6 +304,33 @@ printBoard.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/printBoard.c.s
 .PHONY : printBoard.c.s
 
+printWinner.obj: printWinner.c.obj
+
+.PHONY : printWinner.obj
+
+# target to build an object file
+printWinner.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/printWinner.c.obj
+.PHONY : printWinner.c.obj
+
+printWinner.i: printWinner.c.i
+
+.PHONY : printWinner.i
+
+# target to preprocess a source file
+printWinner.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/printWinner.c.i
+.PHONY : printWinner.c.i
+
+printWinner.s: printWinner.c.s
+
+.PHONY : printWinner.s
+
+# target to generate assembly for a file
+printWinner.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_2.dir\build.make CMakeFiles/Assignment_2.dir/printWinner.c.s
+.PHONY : printWinner.c.s
+
 turnAction.obj: turnAction.c.obj
 
 .PHONY : turnAction.obj
@@ -346,9 +373,9 @@ help:
 	@echo ... findValidMoves.obj
 	@echo ... findValidMoves.i
 	@echo ... findValidMoves.s
-	@echo ... initializeBoard.obj
-	@echo ... initializeBoard.i
-	@echo ... initializeBoard.s
+	@echo ... initializeGame.obj
+	@echo ... initializeGame.i
+	@echo ... initializeGame.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -358,6 +385,9 @@ help:
 	@echo ... printBoard.obj
 	@echo ... printBoard.i
 	@echo ... printBoard.s
+	@echo ... printWinner.obj
+	@echo ... printWinner.i
+	@echo ... printWinner.s
 	@echo ... turnAction.obj
 	@echo ... turnAction.i
 	@echo ... turnAction.s

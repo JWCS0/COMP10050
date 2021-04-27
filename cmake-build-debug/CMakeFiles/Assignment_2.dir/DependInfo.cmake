@@ -6,10 +6,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/J/Desktop/C10050/Assignment 2/capture.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/capture.c.obj"
   "C:/Users/J/Desktop/C10050/Assignment 2/findValidMoves.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/findValidMoves.c.obj"
-  "C:/Users/J/Desktop/C10050/Assignment 2/initializeBoard.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/initializeBoard.c.obj"
+  "C:/Users/J/Desktop/C10050/Assignment 2/initializeGame.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/initializeGame.c.obj"
   "C:/Users/J/Desktop/C10050/Assignment 2/main.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/main.c.obj"
   "C:/Users/J/Desktop/C10050/Assignment 2/movesAvailable.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/movesAvailable.c.obj"
   "C:/Users/J/Desktop/C10050/Assignment 2/printBoard.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/printBoard.c.obj"
+  "C:/Users/J/Desktop/C10050/Assignment 2/printWinner.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/printWinner.c.obj"
   "C:/Users/J/Desktop/C10050/Assignment 2/turnAction.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/turnAction.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

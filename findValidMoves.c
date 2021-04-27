@@ -54,7 +54,8 @@ int findValidMoves(char choice[], enum piece player, int onlyCheck)
                 validMoves = 1;
             }
         }
-        if (validMoves != 0) {
+
+        if (validMoves != 0 && onlyCheck != 1) {
             board[row][column].square = player;
             switch(player) {
                 case BLACK:

@@ -80,7 +80,7 @@
 		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/findValidMoves.c">
 			<Option target="Assignment_2"/>
 		</Unit>
-		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/initializeBoard.c">
+		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/initializeGame.c">
 			<Option target="Assignment_2"/>
 		</Unit>
 		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/library.h">
@@ -93,6 +93,9 @@
 			<Option target="Assignment_2"/>
 		</Unit>
 		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/printBoard.c">
+			<Option target="Assignment_2"/>
+		</Unit>
+		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/printWinner.c">
 			<Option target="Assignment_2"/>
 		</Unit>
 		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/turnAction.c">

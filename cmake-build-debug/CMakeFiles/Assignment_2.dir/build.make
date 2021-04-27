@@ -102,18 +102,18 @@ CMakeFiles/Assignment_2.dir/printBoard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment_2.dir/printBoard.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\J\Desktop\C10050\Assignment 2\printBoard.c" -o CMakeFiles\Assignment_2.dir\printBoard.c.s
 
-CMakeFiles/Assignment_2.dir/initializeBoard.c.obj: CMakeFiles/Assignment_2.dir/flags.make
-CMakeFiles/Assignment_2.dir/initializeBoard.c.obj: ../initializeBoard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\J\Desktop\C10050\Assignment 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Assignment_2.dir/initializeBoard.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Assignment_2.dir\initializeBoard.c.obj   -c "C:\Users\J\Desktop\C10050\Assignment 2\initializeBoard.c"
+CMakeFiles/Assignment_2.dir/initializeGame.c.obj: CMakeFiles/Assignment_2.dir/flags.make
+CMakeFiles/Assignment_2.dir/initializeGame.c.obj: ../initializeGame.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\J\Desktop\C10050\Assignment 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Assignment_2.dir/initializeGame.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Assignment_2.dir\initializeGame.c.obj   -c "C:\Users\J\Desktop\C10050\Assignment 2\initializeGame.c"
 
-CMakeFiles/Assignment_2.dir/initializeBoard.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment_2.dir/initializeBoard.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\J\Desktop\C10050\Assignment 2\initializeBoard.c" > CMakeFiles\Assignment_2.dir\initializeBoard.c.i
+CMakeFiles/Assignment_2.dir/initializeGame.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment_2.dir/initializeGame.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\J\Desktop\C10050\Assignment 2\initializeGame.c" > CMakeFiles\Assignment_2.dir\initializeGame.c.i
 
-CMakeFiles/Assignment_2.dir/initializeBoard.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment_2.dir/initializeBoard.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\J\Desktop\C10050\Assignment 2\initializeBoard.c" -o CMakeFiles\Assignment_2.dir\initializeBoard.c.s
+CMakeFiles/Assignment_2.dir/initializeGame.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment_2.dir/initializeGame.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\J\Desktop\C10050\Assignment 2\initializeGame.c" -o CMakeFiles\Assignment_2.dir\initializeGame.c.s
 
 CMakeFiles/Assignment_2.dir/findValidMoves.c.obj: CMakeFiles/Assignment_2.dir/flags.make
 CMakeFiles/Assignment_2.dir/findValidMoves.c.obj: ../findValidMoves.c
@@ -167,31 +167,46 @@ CMakeFiles/Assignment_2.dir/movesAvailable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment_2.dir/movesAvailable.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\J\Desktop\C10050\Assignment 2\movesAvailable.c" -o CMakeFiles\Assignment_2.dir\movesAvailable.c.s
 
+CMakeFiles/Assignment_2.dir/printWinner.c.obj: CMakeFiles/Assignment_2.dir/flags.make
+CMakeFiles/Assignment_2.dir/printWinner.c.obj: ../printWinner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\J\Desktop\C10050\Assignment 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Assignment_2.dir/printWinner.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Assignment_2.dir\printWinner.c.obj   -c "C:\Users\J\Desktop\C10050\Assignment 2\printWinner.c"
+
+CMakeFiles/Assignment_2.dir/printWinner.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment_2.dir/printWinner.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\J\Desktop\C10050\Assignment 2\printWinner.c" > CMakeFiles\Assignment_2.dir\printWinner.c.i
+
+CMakeFiles/Assignment_2.dir/printWinner.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment_2.dir/printWinner.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\J\Desktop\C10050\Assignment 2\printWinner.c" -o CMakeFiles\Assignment_2.dir\printWinner.c.s
+
 # Object files for target Assignment_2
 Assignment_2_OBJECTS = \
 "CMakeFiles/Assignment_2.dir/main.c.obj" \
 "CMakeFiles/Assignment_2.dir/printBoard.c.obj" \
-"CMakeFiles/Assignment_2.dir/initializeBoard.c.obj" \
+"CMakeFiles/Assignment_2.dir/initializeGame.c.obj" \
 "CMakeFiles/Assignment_2.dir/findValidMoves.c.obj" \
 "CMakeFiles/Assignment_2.dir/turnAction.c.obj" \
 "CMakeFiles/Assignment_2.dir/capture.c.obj" \
-"CMakeFiles/Assignment_2.dir/movesAvailable.c.obj"
+"CMakeFiles/Assignment_2.dir/movesAvailable.c.obj" \
+"CMakeFiles/Assignment_2.dir/printWinner.c.obj"
 
 # External object files for target Assignment_2
 Assignment_2_EXTERNAL_OBJECTS =
 
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/main.c.obj
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/printBoard.c.obj
-Assignment_2.exe: CMakeFiles/Assignment_2.dir/initializeBoard.c.obj
+Assignment_2.exe: CMakeFiles/Assignment_2.dir/initializeGame.c.obj
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/findValidMoves.c.obj
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/turnAction.c.obj
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/capture.c.obj
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/movesAvailable.c.obj
+Assignment_2.exe: CMakeFiles/Assignment_2.dir/printWinner.c.obj
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/build.make
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/linklibs.rsp
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/objects1.rsp
 Assignment_2.exe: CMakeFiles/Assignment_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\J\Desktop\C10050\Assignment 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable Assignment_2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\J\Desktop\C10050\Assignment 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable Assignment_2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Assignment_2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

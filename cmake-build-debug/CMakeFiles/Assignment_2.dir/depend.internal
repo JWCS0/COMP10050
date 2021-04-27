@@ -7,8 +7,8 @@ CMakeFiles/Assignment_2.dir/capture.c.obj
 CMakeFiles/Assignment_2.dir/findValidMoves.c.obj
  C:/Users/J/Desktop/C10050/Assignment 2/findValidMoves.c
  C:/Users/J/Desktop/C10050/Assignment 2/library.h
-CMakeFiles/Assignment_2.dir/initializeBoard.c.obj
- C:/Users/J/Desktop/C10050/Assignment 2/initializeBoard.c
+CMakeFiles/Assignment_2.dir/initializeGame.c.obj
+ C:/Users/J/Desktop/C10050/Assignment 2/initializeGame.c
  C:/Users/J/Desktop/C10050/Assignment 2/library.h
 CMakeFiles/Assignment_2.dir/main.c.obj
  C:/Users/J/Desktop/C10050/Assignment 2/library.h
@@ -19,6 +19,9 @@ CMakeFiles/Assignment_2.dir/movesAvailable.c.obj
 CMakeFiles/Assignment_2.dir/printBoard.c.obj
  C:/Users/J/Desktop/C10050/Assignment 2/library.h
  C:/Users/J/Desktop/C10050/Assignment 2/printBoard.c
+CMakeFiles/Assignment_2.dir/printWinner.c.obj
+ C:/Users/J/Desktop/C10050/Assignment 2/library.h
+ C:/Users/J/Desktop/C10050/Assignment 2/printWinner.c
 CMakeFiles/Assignment_2.dir/turnAction.c.obj
  C:/Users/J/Desktop/C10050/Assignment 2/library.h
  C:/Users/J/Desktop/C10050/Assignment 2/turnAction.c

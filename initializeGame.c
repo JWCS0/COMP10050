@@ -7,11 +7,16 @@
 
 void initializeGame()
 {
+    //Get player names
+
+
+
     for (size_t i = 1; i <= 9; i++) {
         for (size_t j = 1; j <= 9; j++) {
             board[j][i].square = EMPTY;
         }
     }
+
     board[4][4].square = WHITE;
     board[4][5].square = BLACK;
     board[5][4].square = BLACK;
