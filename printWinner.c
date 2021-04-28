@@ -13,12 +13,12 @@ void printWinner()
     fp = fopen("results.txt","w");
 
     if (difference > 0) {
-        printf("%s","Winner is black");
-        fprintf(fp,"%s\n","Winner is black");
+        printf("%s %s","Winner is (black)",black.name);
+        fprintf(fp,"%s %s\n","Winner is (black)",black.name);
     }
     else if (difference < 0) {
-        printf("%s","Winner is white");
-        fprintf(fp,"%s\n","Winner is white");
+        printf("%s %s","Winner is (white)", white.name);
+        fprintf(fp,"%s %s\n","Winner is (white)",white.name);
     }
     else {
         printf("%s","Game ended in a draw");
@@ -26,7 +26,7 @@ void printWinner()
     }
 
     fprintf(fp,"%s\n","Result:");
-    fprintf(fp,"%s %d : %d %s","Black",black.score,white.score, "White");
+    fprintf(fp,"%s %s %d : %d %s %s","(Black)",black.name,black.score,white.score, white.name, "(White)");
 
     fclose(fp);
 }

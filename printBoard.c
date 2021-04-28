@@ -28,5 +28,5 @@ void printBoard()
     }
     printf("%s","   a  b  c  d  e  f  g  h\n");
 
-    printf("%s %d - %d %s\n","Current Score: Black",black.score,white.score,"White");
+    printf("%s %s %d - %d %s %s\n\n","Current Score: (Black)",black.name,black.score,white.score,white.name,"(White)");
 }

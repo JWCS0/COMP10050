@@ -7,10 +7,10 @@
 
 void turnAction()
 {
-    static enum piece currPlayer = BLACK;
     char choice[2];
     int check;
     extern int gameFinish;
+    extern enum piece currPlayer;
 
     switch (currPlayer) {
         case WHITE:

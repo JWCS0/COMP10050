@@ -4,6 +4,7 @@
 
 #ifndef ASSIGNMENT_2_LIBRARY_H
 #define ASSIGNMENT_2_LIBRARY_H
+#define PLAYER_NAME_LEN 20
 
 
 enum piece {EMPTY, BLACK, WHITE, EOB};
@@ -17,7 +18,7 @@ struct player
 {
     enum piece color;
     int score;
-    char name[20];
+    char name[PLAYER_NAME_LEN];
 } black, white;
 
 struct ordinalDir

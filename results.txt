@@ -1,1 +1,3 @@
-Winner is blackResult:Black 13 : 0 White
+Winner is (black) Joe
+Result:
+(Black) Joe 13 : 0 Oej (White)
