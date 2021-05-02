@@ -34,6 +34,6 @@ void turnAction();
 int findValidMoves(char choice[], enum piece player, int onlyCheck);
 int capture(int row, int column, int direction, enum piece type);
 int movesAvailable(enum piece player);
-void printWinner();
+void printWinner(char startTime[]);
 
 #endif //ASSIGNMENT_2_LIBRARY_H

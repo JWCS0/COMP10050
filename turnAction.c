@@ -14,10 +14,10 @@ void turnAction()
 
     switch (currPlayer) {
         case WHITE:
-            puts("Current player is White");
+            printf("%s %s\n","Current player is White", white.name);
             break;
         case BLACK:
-            puts("Current player is Black");
+            printf("%s %s\n","Current player is Black", black.name);
             break;
         default:
             break;
