@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/J/Desktop/C10050/Assignment 2/library.h
-
-C:/Users/J/Desktop/C10050/Assignment 2/printWinner.c
-library.h
-C:/Users/J/Desktop/C10050/Assignment 2/library.h
+C:/Users/J/Desktop/C10050/Assignment 2/findValidMoves.c
 stdio.h
 -
+ctype.h
+-
+library.h
+C:/Users/J/Desktop/C10050/Assignment 2/library.h
+string.h
+-
+
+C:/Users/J/Desktop/C10050/Assignment 2/library.h
 

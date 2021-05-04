@@ -14,6 +14,7 @@ int main()
 
     time ( &rawtime );
     timeinfo = localtime ( &rawtime );
+    //The above code was adapted to fit this assignment
 
     puts("\t*** Welcome to Othello!! ***");
     initializeGame();
