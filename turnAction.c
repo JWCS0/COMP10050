@@ -3,6 +3,7 @@
 //
 
 #include <stdio.h>
+#include <string.h>
 #include "library.h"
 
 /* This function performs a turn in the game */
@@ -38,9 +39,9 @@ void turnAction()
 
     //Current player has no valid moves
     else if (movesAvailable(currPlayer) == 0) {
-        puts("No valid moves");
         do {
-            printf("%s","Enter the position you would like to take:\n");
+            puts("No valid moves");
+            printf("%s","Enter the position you would like to take ([column][row]/p to pass):\n");
             scanf("%2s",choice);
         } while (choice[0] != 'p');
     }
@@ -48,10 +49,13 @@ void turnAction()
     //play out a regular turn by asking for a move and executing the move if valid
     else {
         do {
-            printf("%s","Enter the position you would like to take:\n");
+            printf("%s","Enter the position you would like to take ([column][row]/p to pass):\n");
             scanf("%3s",choice);
             check = findValidMoves(choice, currPlayer,0);
-            if (check == 0) {
+            if (strcmp(choice,"p") == 0) {
+                puts("Moves still possible, cannot pass");
+            }
+            else if (check == 0) {
                 puts("Not a valid move");
             }
         } while (check == 0);

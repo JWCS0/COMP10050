@@ -5,18 +5,12 @@
 #include <stdio.h>
 #include <ctype.h>
 #include "library.h"
-#include <string.h>
 
 /* This function returns whether there is a position is a valid move for the player */
 int findValidMoves(char choice[], enum piece player, int onlyCheck)
 {
     int validMoves = 0;
     int change = 0;
-
-    printf("Checking %s\n",choice);
-    if (strcmp(choice,"h7")==0) {
-        puts("here");
-    }
 
     //convert the character into integers
     int column = tolower(choice[0]-'a')+1;
@@ -36,6 +30,7 @@ int findValidMoves(char choice[], enum piece player, int onlyCheck)
             puts("");
             break;
     }
+
 
     //check the input is in range (a-h, 1,8)
     if (column < 9 && column > 0 && row < 9 && row > 0 && board[row][column].square == EMPTY){

@@ -55,8 +55,8 @@ void initializeGame()
     } while (1);
 
     //fill board with "empty" squares
-    for (size_t i = 1; i <= 9; i++) {
-        for (size_t j = 1; j <= 9; j++) {
+    for (size_t i = 1; i < 9; i++) {
+        for (size_t j = 1; j < 9; j++) {
             board[j][i].square = EMPTY;
         }
     }
