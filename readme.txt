@@ -1,16 +1,3 @@
-1
-Initialise Board
-    8 * 8 array                                     X
-    fill each element with empty struct             X
-    place pieces in centre 4 elements               X
-
-2
-Print Board
-    Loop through board and print
-        E: empty                                    X
-        B: black                                    X
-        W: white                                    X
-
 ----------How you decided to implement the board, the players, the disks. . .
 I decided to implement the board as a 10 by 10 array, with each element containing a structure that defines whether that grid position is black, white, empty or the end of board.
 The 8 by 8 area in the centre is the "true play area".
@@ -30,3 +17,5 @@ When checking if a move is valid the following algorithm is used:
             ^ If there is at least one valid capturing line, the move/position is valid
 
 To check if there are moves available for the player in a turn the above algorithm is used on each 'blank' square at the beginning of the player's turn. 
+
+The score changes after each piece being captured as I believe that this would be more efficient than looping through each of the 56 squares after each turn.
