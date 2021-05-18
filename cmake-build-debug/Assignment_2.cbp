@@ -8,100 +8,100 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Assignment_2">
-				<Option output="C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Assignment_2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_2"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Assignment_2/fast">
-				<Option output="C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Assignment_2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_2/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_2">
+				<Option output="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Assignment_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_2"/>
+					<CompileFile command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_2/fast">
+				<Option output="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/Assignment_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_2/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/c/Users/J/Desktop/C10050/Assignment\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/capture.c">
+		<Unit filename="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/capture.c">
 			<Option target="Assignment_2"/>
 		</Unit>
-		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/findValidMoves.c">
+		<Unit filename="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/findValidMoves.c">
 			<Option target="Assignment_2"/>
 		</Unit>
-		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/initializeGame.c">
+		<Unit filename="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/initializeGame.c">
 			<Option target="Assignment_2"/>
 		</Unit>
-		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/library.h">
+		<Unit filename="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/library.h">
 			<Option target="Assignment_2"/>
 		</Unit>
-		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/main.c">
+		<Unit filename="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/main.c">
 			<Option target="Assignment_2"/>
 		</Unit>
-		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/movesAvailable.c">
+		<Unit filename="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/movesAvailable.c">
 			<Option target="Assignment_2"/>
 		</Unit>
-		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/printBoard.c">
+		<Unit filename="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/printBoard.c">
 			<Option target="Assignment_2"/>
 		</Unit>
-		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/printWinner.c">
+		<Unit filename="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/printWinner.c">
 			<Option target="Assignment_2"/>
 		</Unit>
-		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/turnAction.c">
+		<Unit filename="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/turnAction.c">
 			<Option target="Assignment_2"/>
 		</Unit>
-		<Unit filename="C:/Users/J/Desktop/C10050/Assignment 2/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

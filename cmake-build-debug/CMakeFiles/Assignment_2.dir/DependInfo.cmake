@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/J/Desktop/C10050/Assignment 2/capture.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/capture.c.obj"
-  "C:/Users/J/Desktop/C10050/Assignment 2/findValidMoves.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/findValidMoves.c.obj"
-  "C:/Users/J/Desktop/C10050/Assignment 2/initializeGame.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/initializeGame.c.obj"
-  "C:/Users/J/Desktop/C10050/Assignment 2/main.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/main.c.obj"
-  "C:/Users/J/Desktop/C10050/Assignment 2/movesAvailable.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/movesAvailable.c.obj"
-  "C:/Users/J/Desktop/C10050/Assignment 2/printBoard.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/printBoard.c.obj"
-  "C:/Users/J/Desktop/C10050/Assignment 2/printWinner.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/printWinner.c.obj"
-  "C:/Users/J/Desktop/C10050/Assignment 2/turnAction.c" "C:/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/turnAction.c.obj"
+  "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/capture.c" "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/capture.c.o"
+  "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/findValidMoves.c" "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/findValidMoves.c.o"
+  "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/initializeGame.c" "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/initializeGame.c.o"
+  "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/main.c" "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/main.c.o"
+  "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/movesAvailable.c" "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/movesAvailable.c.o"
+  "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/printBoard.c" "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/printBoard.c.o"
+  "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/printWinner.c" "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/printWinner.c.o"
+  "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/turnAction.c" "/cygdrive/c/Users/J/Desktop/C10050/Assignment 2/cmake-build-debug/CMakeFiles/Assignment_2.dir/turnAction.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

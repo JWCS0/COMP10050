@@ -5,19 +5,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <ctype.h>
-#include <time.h>
 #include "library.h"
 
 /* This function sets up the game to be ready to play */
 void initializeGame()
 {
     extern enum piece currPlayer;
-    char startingPlayer;
 
     //get the player names
     char player1[PLAYER_NAME_LEN];
     char player2[PLAYER_NAME_LEN];
+
     //Get player names
     puts("Player 1 Name (Black):");
     scanf("%s19",player1);
@@ -27,32 +25,8 @@ void initializeGame()
     strcpy(black.name,player1);
     strcpy(white.name,player2);
 
-    //choose starting player
-    do {
-        puts("Which player is first (b/w)? Enter (r) for random");
-        scanf("\n%c", &startingPlayer);
-        if (tolower(startingPlayer) == 'b') {
-            currPlayer = BLACK;
-            break;
-        }
-        else if (tolower(startingPlayer) == 'w') {
-            currPlayer = WHITE;
-            break;
-        }
-        else if (tolower(startingPlayer) == 'r') {
-            int num;
-            srand(time(NULL));
-            num = rand()%2;
-            if (num == 0){
-                currPlayer = BLACK;
-            }
-            else {
-                currPlayer = WHITE;
-            }
-            break;
-        }
-        puts("Invalid input");
-    } while (1);
+    //set starting player
+    currPlayer = BLACK;
 
     //fill board with "empty" squares
     for (size_t i = 1; i < 9; i++) {
