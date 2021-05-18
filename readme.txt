@@ -18,4 +18,4 @@ When checking if a move is valid the following algorithm is used:
 
 To check if there are moves available for the player in a turn the above algorithm is used on each 'blank' square at the beginning of the player's turn. 
 
-The score changes after each piece being captured as I believe that this would be more efficient than looping through each of the 56 squares after each turn.
+The score changes after each piece being captured as I believe that this would be more efficient than looping through each of the 64 squares after each turn.
