@@ -11,9 +11,9 @@ After each turn, there is a variable which contains the current player that flip
 When checking if a move is valid the following algorithm is used:
     Check linearly in each of the 8 ordinal directions for opposite piece
         if opposite color found, keep going in that direction
-            if same color found in that "line"      = invalid capturing line
-            if end of board reached                 = invalid capturing line
-            if blank space at end                   = valid capturing line
+            if player's colour is found in that "line"      = valid capturing line
+            if end of board reached                         = invalid capturing line
+            if blank space at end                           = invalid capturing line
             ^ If there is at least one valid capturing line, the move/position is valid
 
 To check if there are moves available for the player in a turn the above algorithm is used on each 'blank' square at the beginning of the player's turn. 
